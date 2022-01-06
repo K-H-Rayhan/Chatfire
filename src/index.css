@@ -1,0 +1,18 @@
+/* ./src/index.css */
+input,button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+.habijabi{
+    height: calc(100vh - 7vh);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+       font-family: 'Inter', sans-serif; 
+    }
+}
